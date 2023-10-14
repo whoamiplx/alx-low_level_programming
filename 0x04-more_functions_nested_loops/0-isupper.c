@@ -3,7 +3,7 @@
  * _isupper - prog checks for uppercase letters
  * @c: char to be checked
  *
- * return: 1 if c is uppercase letter and 0 otherwise.
+ * return: 1 if c is uppercase, otherwise 0
  */
 int _isupper(int c)
 {
