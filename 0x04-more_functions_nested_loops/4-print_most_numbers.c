@@ -1,17 +1,17 @@
-#include <unistd.h>
-
-int _putchar(char c);
+#include "main.h"
+/**
+ * print_most_numbers - prints digits from 0 - 9 except 2 and 4
+ * return: void
+ */
 
 void print_most_numbers(void)
 {
-    int number;
+	char c;
 
-    for (number = 0; number <= 9; number++)
-    {
-        if (number != 2 && number != 4)
-        {
-            _putchar(number + '0');
-        }
-    }
-    _putchar('\n');
+	for (c = '0'; c <= '9'; c++)
+	{
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
+	}
+	_putchar('\n');
 }
