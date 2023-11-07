@@ -8,6 +8,12 @@
  *
  * description: a struct task of a dog
  */
+
+/**
+ * dog_t - new struct dog name
+ */
+typedef struct dog dog_t;
+
 struct dog
 {
 	char *name;
